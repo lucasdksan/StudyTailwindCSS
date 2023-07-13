@@ -1,7 +1,7 @@
 const OrderComponent = ()=>{
     return(
-        <div className="h-screen w-screen">
-            <p className="">Apenas um texto para testes de tailwind</p>
+        <div className="w-screen">
+            <p className="italic text-white font-bold truncate line-clamp-3">Apenas um texto para testes de tailwind</p>
         </div>
     );
 }
