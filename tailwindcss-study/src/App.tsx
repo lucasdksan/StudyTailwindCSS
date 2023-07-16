@@ -1,10 +1,10 @@
-import FormPage from "./components/FormPage";
+import AnimationTailwindCss from "./components/AnimationTailwindCss";
 
 const App = ()=>{
   return(
-    <>
-      <FormPage />
-    </>
+    <div className="w-screen h-screen">
+      <AnimationTailwindCss/>
+    </div>
   );
 }
 
