@@ -1,9 +1,9 @@
-import AnimationTailwindCss from "./components/AnimationTailwindCss";
+import HeroCard from "./components/HeroCard";
 
 const App = ()=>{
   return(
     <div className="w-screen h-screen">
-      <AnimationTailwindCss/>
+      <HeroCard />
     </div>
   );
 }
