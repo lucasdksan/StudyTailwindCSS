@@ -1,9 +1,9 @@
-import HeroCard from "./components/HeroCard";
+import GroupHover from "./components/GroupHover";
 
 const App = ()=>{
   return(
     <div className="w-screen h-screen">
-      <HeroCard />
+      <GroupHover />
     </div>
   );
 }
